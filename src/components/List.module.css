@@ -20,12 +20,6 @@
     text-decoration: line-through;
 }
 
-.remove {
-    transform: translateY(10rem) rotateZ(20deg);
-    /* opacity: 0; */
-    transition: all 0.3s ease;
-}
-
 .buttonsContainer{
     display: flex;
 }
