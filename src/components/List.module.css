@@ -20,7 +20,7 @@
     text-decoration: line-through;
 }
 
-.buttonsContainer{
+.buttonsContainer {
     display: flex;
 }
 
@@ -31,6 +31,9 @@
     width: 45px;
     cursor: pointer;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttonsContainer button i {
@@ -42,4 +45,26 @@
 }
 .clearButton {
     background-color: rgb(201, 34, 34);
+}
+
+@media (max-width: 550px) {
+    .todoContainer {
+        width: 360px;
+        height: 35px;
+    }
+
+    .buttonsContainer button {
+        height: 35px;
+        width: 35px;
+    }
+
+    .buttonsContainer button i {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 420px) {
+    .todoContainer {
+        width: 300px;
+    }
 }

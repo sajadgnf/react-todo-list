@@ -85,3 +85,26 @@
     cursor: pointer;
     padding: 0 5px;
 }
+
+@media (max-width: 550px) {
+    .formContainer {
+        flex-wrap: wrap;
+    }
+
+    .selectContainer {
+        margin-top: 6px;
+    }
+
+    .formContainer input,
+    .formContainer button,
+    .filterTodo,
+    .selectContainer::after {
+        height: 35px;
+    }
+}
+
+@media (max-width: 420px) {
+    .formContainer input {
+        width: 280px;
+    }
+}
