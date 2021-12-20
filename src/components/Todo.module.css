@@ -1,0 +1,87 @@
+.container {
+    padding-top: 100px;
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.formContainer input,
+.formContainer button {
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 10px;
+}
+
+.formContainer input {
+    width: 350px;
+}
+
+.formContainer button {
+    background-color: #fff;
+    color: #ff6f47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.formContainer button:hover {
+    background-color: #ff6f47;
+    color: #fff;
+}
+
+.formContainer button i {
+    font-size: 1.2rem;
+}
+
+.selectContainer {
+    position: relative;
+}
+
+.selectContainer::after {
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 0 0.5rem;
+    color: #ff6f47;
+    background-color: #fff;
+    cursor: pointer;
+    pointer-events: none;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.filterTodo {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-image: none;
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 120px;
+    margin-left: 10px;
+    color: #ff6f47;
+    cursor: pointer;
+    padding: 0 5px;
+}

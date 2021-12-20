@@ -1,0 +1,51 @@
+.todoContainer {
+    width: 500px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+
+.todoItem {
+    display: flex;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.complete {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.remove {
+    transform: translateY(10rem) rotateZ(20deg);
+    /* opacity: 0; */
+    transition: all 0.3s ease;
+}
+
+.buttonsContainer{
+    display: flex;
+}
+
+.buttonsContainer button {
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.buttonsContainer button i {
+    font-size: 14px;
+}
+
+.doneButton {
+    background-color: rgb(18, 160, 82);
+}
+.clearButton {
+    background-color: rgb(201, 34, 34);
+}
